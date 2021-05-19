@@ -9,6 +9,6 @@ ln -s ck001-out.txt fort.10
 ln -s ck001-out.bin fort.11
 
 echo $EXECUTABLE
-$EXECUTABLE < input/input.dat #> output.dat
+$EXECUTABLE < input/input.dat
 
 rm fort.* *.exe *.o
