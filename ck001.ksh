@@ -10,7 +10,6 @@ ln -s output/ck001-out.txt fort.10
 ln -s output/ck001-out.bin fort.11
 
 echo $EXECUTABLE
-echo "hello carolyn"
 $EXECUTABLE < input/input.dat
 
 rm fort.* *.exe *.o
